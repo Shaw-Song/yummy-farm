@@ -34,6 +34,10 @@ li a {
     text-decoration: none;
 }
 
+#logo {
+    padding: 6.5px 26px 6.5px 26px;
+}
+
 li a:hover {
     background-color: #111;
 }
