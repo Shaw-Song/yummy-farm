@@ -46,6 +46,10 @@ main {
     margin-top: 80px;
 }
 
+h1 {
+    text-align: center;
+}
+
 .pic {
     height: 400px;
     width: 80%;
