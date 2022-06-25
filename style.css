@@ -45,3 +45,11 @@ li a:hover {
 main {
     margin-top: 80px;
 }
+
+.pic {
+    height: 400px;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
