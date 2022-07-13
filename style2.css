@@ -1,0 +1,175 @@
+#nav-bar {
+    position: fixed;
+    left: 0;
+}
+
+#header-img {
+    max-width: 100%;
+    display: block;
+    height: 34px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 26px;
+    text-decoration: none;
+}
+
+#logo {
+    padding: 6.5px 26px 6.5px 26px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+main {
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Fixed, monospace;
+}
+
+
+
+
+#addUserForm {
+    width: 450px;
+    height: 345px;
+}
+
+#fieldSet {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+
+.centerItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerLabel {
+    display: block;
+    text-align: center;
+}
+
+.centerInput {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+select {
+	appearance: none;
+    height: 19px;
+}
+
+#date {
+    /* display: none; */
+    border: 1px solid black;
+    margin-left: 5px;
+    width: 103px;
+    /* height: 10px;
+    width: 20px; */
+}
+
+
+p {
+    /* height: 19px; */
+    /* width: 169px; */
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: -1px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+
+.radios {
+    display: flex;
+    margin-left: 120px;
+    margin-right: auto;
+    width: 169px;
+    justify-content: space-between;
+}
+
+#cm {
+    display: block;
+    margin-left: 130px;
+}
+
+textarea {
+    appearance: none;
+}
+
+.checkboxes {
+    display: flex;
+    margin-left: 130px;
+    margin-right: auto;
+    width: 169px;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+/* .check {
+    border: 1px solid black;
+    border-radius: 0;
+} */
+
+button {
+    border: 1px solid black;
+    background-color: white;
+    width: 80px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+
+
+
+footer {
+    text-align: center;
+
+ }
