@@ -44,127 +44,83 @@ li a:hover {
 
 
 main {
-    margin-top: 80px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 40px;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Fixed, monospace;
+    margin-top: 50px;
 }
 
-
-
-
-#addUserForm {
-    width: 450px;
-    height: 345px;
-}
-
-#fieldSet {
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-}
-
-
-.centerItems {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.centerLabel {
-    display: block;
+#title {
     text-align: center;
+    padding: 35px 0 0 0;
+    color: hsl(30,100%,50%);
 }
 
-.centerInput {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid black;
+#description {
+    text-align: center;
+    font-size: 14pt;
+    padding: 0 0 10px 0;
 }
 
-.inlineBlock {
-    display: inline-block;
+#survey-form {
+    padding: 20px 300px;
+    background-color: hsl(90,40%,60%);
 }
 
-select {
-	appearance: none;
-    height: 19px;
+
+.col-md-3 {
+    padding: 20px 0 20px 20px;
+    font-size: 14pt;
 }
 
-#date {
-    /* display: none; */
-    border: 1px solid black;
-    margin-left: 5px;
-    width: 103px;
-    /* height: 10px;
-    width: 20px; */
+.col-md-6 {
+    padding: 20px 0 20px 20px;
+    font-size: 14pt;
 }
+
+
+#name {
+  width: 150px;
+}
+
+#email {
+  width: 260px;
+}
+
+#number {
+  width: 150px;
+}
+
+
 
 
 p {
     /* height: 19px; */
     /* width: 169px; */
     display: block;
-    text-align: center;
-    font-size: 12px;
-    letter-spacing: -1px;
-    margin-top: 5px;
-    margin-bottom: 3px;
-}
-
-
-.radios {
-    display: flex;
-    margin-left: 120px;
-    margin-right: auto;
-    width: 169px;
-    justify-content: space-between;
-}
-
-#cm {
-    display: block;
-    margin-left: 130px;
-}
-
-textarea {
-    appearance: none;
+    font-size: 14pt;
 }
 
 .checkboxes {
-    display: flex;
-    margin-left: 130px;
-    margin-right: auto;
-    width: 169px;
-    justify-content: space-between;
-    font-size: 12px;
+    padding: 10px 120px;
+    font-size: 14pt;
 }
 
-/* .check {
-    border: 1px solid black;
-    border-radius: 0;
-} */
 
-button {
-    border: 1px solid black;
-    background-color: white;
-    width: 80px;
-    padding-top: 0;
-    padding-bottom: 0;
+.comment {
+    padding: 10px 120px;
+    font-size: 14pt;
 }
 
 .submit {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 25px;
+    padding: 0px 120px;
 }
+
+
+#submit {
+    color: #fff;
+    font-size: 16pt;
+    background-color: hsl(30,90%,50%);
+
+}
+
 
 
 

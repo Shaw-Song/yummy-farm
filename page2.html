@@ -3,6 +3,8 @@
     <head>
         <title>Yummy Farm Survay Page</title>
         <link href="style2.css" rel="stylesheet">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
     <body>
         <header>
@@ -17,28 +19,55 @@
             </nav>
         </header>
         <main>
-            <form action="/form-handling-url" method="post" id="addUserForm">
-                <fieldset id="fieldSet">
-                    <label for="firstName">First Name:</label>
-                    <input type="text" id="firstName" name="firstName">
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" id="lastName" name="lastName">
-                    <p>What do you like?</p>
-                    <input type="checkbox" id="yummyberry" name="yummyberry">
-                    <label for="yummyberry">Yummyberry</label>
-                    <input type="checkbox" id="strawberry" name="strawberry">
-                    <label for="strawberry">Strawberry</label>
-                    <input type="checkbox" id="blueberry" name="blueberry">
-                    <label for="blueberry">Blueberry</label>
-
-                    <label for="comment">Comment:</label>
-                    <textarea id="comment" name="comment"></textarea>
-
-                    <div class="submit">
-                        <button type="submit">Submit</button>
+            <h1 id="title">Web Survey for Yummy Farm</h1>
+            <p id="description">Please help us improve the web site and make it more useful to you.</p>
+            <form action="/form-handling-url" method="post" id="survey-form">
+                <!-- <fieldset id="fieldSet"> -->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- name -->
+                            <div class="col-md-3">
+                                <label for="name" id="name-label">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            </div>
+                            <!-- age -->
+                            <div class="col-md-3">
+                                <label for="number"  id="number-label">Age</label>
+                                <input type="number" id="number" name="age" placeholder="Enter your age" required min="1" max="150">
+                            </div>
+                            <!-- email -->
+                            <div class="col-md-6">
+                                <label for="email" id="email-label">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                            </div>
+                        </div>
                     </div>
 
-                </fieldset>
+                    <!-- horizontal line -->
+                    <hr>
+
+                    <!-- checkbox -->
+                    <div class="checkboxes">
+                        <p>What do you like?</p>
+                        <input type="checkbox" id="yummyberry" name="yummyberry" class="check" value="yummyberry">
+                        <label for="yummyberry">Yummyberry</label><br>
+                        <input type="checkbox" id="strawberry" name="strawberry" class="check" value="strawberry">
+                        <label for="strawberry">Strawberry</label><br>
+                        <input type="checkbox" id="blueberry" name="blueberry" class="check" value="blueberry">
+                        <label for="blueberry">Blueberry</label><br>
+                    </div>
+
+                    <!-- textarea -->
+                    <div class="comment">
+                        <label for="comment">Please feel free to add additional comments about our website below: </label>
+                        <textarea rows="4" cols="50" id="comment">Enter your comments..</textarea>
+                    </div>
+
+                    <!-- submit button -->
+                    <div class="submit">
+                        <button class="btn btn-default btn-block" type="submit" id="submit">Submit</button>
+                    </div>
+                <!-- </fieldset> -->
             </form>
         </main>
         <footer>coded by Shaw</footer>
