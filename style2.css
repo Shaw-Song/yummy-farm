@@ -28,18 +28,19 @@ li {
 
 .navlink {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 26px;
     text-decoration: none;
 }
 
 #logo {
-    padding: 6.5px 26px 6.5px 26px;
+    padding: 9px 26px 9px 26px;
 }
 
 li a:hover {
     background-color: #A3A380;
+    color: white;
 }
 
 
