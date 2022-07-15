@@ -11,11 +11,11 @@
 
 ul {
     list-style-type: none;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-    background-color: #333;
-    opacity: 1;
+    /* overflow: hidden; */
+    /* margin: 0;
+    padding: 0; */
+    background-color: #D6CE93;
+    /* opacity: 1; */
     position: fixed;
     top: 0;
     width: 100%;
@@ -23,10 +23,10 @@ ul {
 
 li {
     float: left;
-    border-right: 1px solid #bbb
+    /* border-right: 1px solid #bbb; */
 }
 
-li a {
+.navlink {
     display: block;
     color: white;
     text-align: center;
@@ -39,7 +39,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #A3A380;
 }
 
 
@@ -50,7 +50,7 @@ main {
 #title {
     text-align: center;
     padding: 35px 0 0 0;
-    color: hsl(30,100%,50%);
+    color: #BB8588;
 }
 
 #description {
@@ -61,7 +61,7 @@ main {
 
 #survey-form {
     padding: 20px 300px;
-    background-color: hsl(90,40%,60%);
+    background-color: #D6CE93;
 }
 
 
@@ -116,8 +116,8 @@ p {
 
 #submit {
     color: #fff;
-    font-size: 16pt;
-    background-color: hsl(30,90%,50%);
+    font-size: 15pt;
+    background-color: #BB8588;
 
 }
 
