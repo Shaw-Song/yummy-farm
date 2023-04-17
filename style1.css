@@ -45,7 +45,12 @@ li {
 }
 
 #logo {
-    padding: 9px 26px 9px 26px;
+    padding: 6px 20px;
+}
+
+#logo img {
+    height: 40px;
+    width: auto;
 }
 
 li a:hover {
@@ -78,8 +83,8 @@ p {
 }
 
 .pic {
-    height: 300px;
-    width: 50%;
+    height: 400px;
+    width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
